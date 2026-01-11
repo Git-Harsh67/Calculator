@@ -1,36 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="main-container">
-    <div class="container">
-        <div class="box box-1">1</div>
-        <div class="box box-2">2</div>
-        <div class="box box-3">3</div>
-        <div class="box box-4">4</div>
-        <div class="box box-5">5</div>
-        <div class="box box-6">6</div>
-        <div class="box box-7">7</div>
-        <div class="box box-8">8</div>
-        <div class="box box-9">9</div>
-        <div class="box box-10">0</div>
-        <div class="box box-11">0</div>
-        <div class="box box-12">C</div>
-        <div class="box box-13">%</div>
-        <div class="box box-14">+/-</div>
-        <div class="box box-15">/</div>
-        <div class="box box-16">*</div>
-        <div class="box box-17">-</div>
-        <div class="box box-18">+</div>
-        <div class="box box-19">=</div>
-        <div class="box box-20"><pre>< </pre> </div>
-        <div class="box box-21">.</div>
+      <div class="container">
+        <div class="box box-11 finalValue">0</div>
+        <button class="box btn">1</button>
+        <button class="box btn">2</button>
+        <button class="box btn">3</button>
+        <button class="box btn">4</button>
+        <button class="box btn">5</button>
+        <button class="box btn">6</button>
+        <button class="box btn">7</button>
+        <button class="box btn">8</button>
+        <button class="box btn">9</button>
+        <button class="box btn">0</button>
+        <button class="box box-12 clearBtn btn">c</button>
+        <button class="box box-13 back btn">
+          <img
+            src="./Calculator imgs/delet_17644102-removebg-preview.png"
+            style="width: 27px; padding-top: 6px"
+            alt="back buttom"
+          />
+        </button>
+
+        <!-- <div class="box box-13 back">
+          <img
+            src="./Calculator imgs/delet_17644102-removebg-preview.png"
+            style="width: 27px; padding-top: 6px"
+            alt="back buttom"
+          />
+        </div> -->
+        <button class="box box-14 square btn">^</button>
+        <!-- <div class="box box-14 square">^</div> -->
+
+        <button class="box box-15 divide btn">/</button>
+
+        <!-- <div class="box box-15 divide"></div> -->
+        <button class="box box-16 multiple btn">x</button>
+
+        <!-- <div class="</div> -->
+        <button class="box box-17 subtract btn">-</button>
+
+        <!-- <div class="box box-17 subtract">-</div> -->
+        <button class="box box-18 add btn">+</button>
+
+        <!-- <div class="box box-18 add">+</div> -->
+        <button class="box box-19 equal btn">=</button>
+
+        <!-- <div class="box box-19 equal">=</div> -->
+        <button class="box box-20 btn">.</button>
+
+        <!-- <div class="box box-20">.</div> -->
+        <button class="box box-12 clearBtn btn">c</button>
+
+        <div class="box box-21 btn-2 btn"></div>
+
+      </div>
     </div>
-    </div>
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
 </html>
